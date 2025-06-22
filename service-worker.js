@@ -1,14 +1,14 @@
 // public/service-worker.js
 // Egyszerű PWA service worker: cache-el minden szükséges fájlt, offline működéshez
 
-const CACHE_NAME = 'graphly-v2';
+const CACHE_NAME = 'graphly-v1';
 const ASSETS_TO_CACHE = [
-  '/',
+  './',
   './index.html',
-  './index-CgXn0VC5.css',
+  './index-DWnyGApZ.css',
   './manifest.json',
   './favicon.png',
-  './index-DaMK0wdx.js'
+  './index-IGykZgkZ.js',
   // statikus assetek, bővíthető
   // ha vannak további képek, fontok, stb.
 ];
