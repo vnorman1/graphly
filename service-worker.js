@@ -1,14 +1,14 @@
 // public/service-worker.js
 // Egyszerű PWA service worker: cache-el minden szükséges fájlt, offline működéshez
 
-const CACHE_NAME = 'graphly-v1';
+const CACHE_NAME = 'graphly-v2';
 const ASSETS_TO_CACHE = [
-  './',
+  '/',
   './index.html',
-  './index-Ds9yxTmN.css',
+  './index-CgXn0VC5.css',
   './manifest.json',
   './favicon.png',
-  './assets/index-KU3jA-0C.js'
+  './index-DaMK0wdx.js'
   // statikus assetek, bővíthető
   // ha vannak további képek, fontok, stb.
 ];
@@ -35,7 +35,7 @@ self.addEventListener('fetch', event => {
       return response || fetch(event.request).catch(() => {
         // Offline fallback: ha index.html-t kér, adjuk vissza
         if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
+          return caches.match('./index.html');
         }
       });
     })
