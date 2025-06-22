@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openwebdocs.org/schemas/opendll.schema.json",
+  "name": "Graphly",
+  "short_name": "Graphly",
+  "description": "Fejlett OG Image Szerkesztő – gyors, modern, letisztult OG képgenerálás weben.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffb3a7",
+  "theme_color": "#ffb3a7",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/x-icon"
+    }
+  ],
+  "author": "vnorman1",
+  "lang": "hu-HU"
+}
