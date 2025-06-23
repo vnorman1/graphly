@@ -5,10 +5,11 @@ const CACHE_NAME = 'graphly-v1';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './index-DWnyGApZ.css',
+  './global.css',
   './manifest.json',
   './favicon.png',
-  './index-IGykZgkZ.js',
+  './index-BLtgoSzq.css',
+  './index-BdfHDNJ3.js'
   // statikus assetek, bővíthető
   // ha vannak további képek, fontok, stb.
 ];
