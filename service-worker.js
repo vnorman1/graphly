@@ -5,7 +5,6 @@ const CACHE_NAME = 'graphly-v1';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './global.css',
   './manifest.json',
   './favicon.png',
   './index-BLtgoSzq.css',
